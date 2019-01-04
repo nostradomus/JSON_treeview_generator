@@ -10,7 +10,9 @@ When learning a new programming language, I prefer writing code which can actual
 
 ## How
 
-![](images/php-logo-s.png) Coming soon.............
+The code for this script has been written in PHP on [MacOS High Sierra](https://en.wikipedia.org/wiki/MacOS_High_Sierra) on the built-in PHP version [7.1](http://php.net/releases/7_1_0.php). It has been tested in parallel on a [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) [Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) with PHP [7.0](http://php.net/releases/7_0_0.php). The script only uses PHP built-in functionalities. As such, there are no references to any external libraries.
+
+The script loads JSON-data from either a file or a web-source. A recursive function iterates over the data, and outputs a human-readable text-based treeview. More details are to found in the [code section](#code)
 
 ## Progress status
 
@@ -88,11 +90,11 @@ AUTHOR
 
 ## Technical details
 
-#### [![](images/php-logo-xs.png)](https://secure.php.net) Programming language
+### [![](images/php-logo-xs.png)](https://secure.php.net) Programming language
 
 The code has been written in [PHP](https://secure.php.net). The minimum required version is PHP 5.3, due to the use of [HereDoc](https://en.wikipedia.org/wiki/Here_document#PHP)/[NowDoc](http://php.net/manual/en/language.types.string.php). The script has however been tested to work correctly up to version 7.
 
-#### Code
+### Code
 
 The full source code is available in the [source folder](source/) :
 
@@ -100,7 +102,7 @@ version  | name             | description
 ---------|------------------|--------------------------------------------------------------------------------------------
 v1.0.0.0 | jsonTreeview.php | initial version
 
-#### Snippets
+### Snippets
 
 ###### Retrieving the data
 
