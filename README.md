@@ -1,4 +1,4 @@
-# JSON treeview generator
+# ![](images/json-logo-s.png) JSON treeview generator
 ![](https://img.shields.io/badge/project%20status-publication%20in%20progress-lightgrey.svg) ![](https://img.shields.io/badge/version-1.0.0.0-green.svg)
 ## What
 
@@ -10,7 +10,7 @@ When learning a new programming language, I prefer writing code which can actual
 
 ## How
 
-Coming soon.............
+![](images/php-logo.png) Coming soon.............
 
 ## Progress status
 
@@ -88,7 +88,7 @@ AUTHOR
 
 ## Technical details
 
-#### Programming language
+#### [![](images/php-logo-xs.png)](https://secure.php.net) Programming language
 
 The code has been written in [PHP](https://secure.php.net). The minimum required version is PHP 5.3, due to the use of [HereDoc](https://en.wikipedia.org/wiki/Here_document#PHP)/[NowDoc](http://php.net/manual/en/language.types.string.php). The script has however been tested to work correctly up to version 7.
 
