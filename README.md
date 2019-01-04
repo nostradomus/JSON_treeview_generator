@@ -1,4 +1,4 @@
-# ![](images/json-logo-s.png) JSON treeview generator
+# ![](images/json-logo-xs.png) JSON treeview generator
 ![](https://img.shields.io/badge/project%20status-publication%20in%20progress-lightgrey.svg) ![](https://img.shields.io/badge/version-1.0.0.0-green.svg)
 ## What
 
@@ -10,7 +10,7 @@ When learning a new programming language, I prefer writing code which can actual
 
 ## How
 
-![](images/php-logo.png) Coming soon.............
+![](images/php-logo-s.png) Coming soon.............
 
 ## Progress status
 
@@ -94,7 +94,7 @@ The code has been written in [PHP](https://secure.php.net). The minimum required
 
 #### Code
 
-The source code is available in the [source folder](source/) :
+The full source code is available in the [source folder](source/) :
 
 version  | name             | description
 ---------|------------------|--------------------------------------------------------------------------------------------
