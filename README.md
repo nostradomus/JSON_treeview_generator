@@ -104,11 +104,11 @@ v1.0.0.0 | jsonTreeview.php | initial version
 
 ### Snippets
 
-###### Retrieving the data
+#### Retrieving the data
 
 Coming soon.............
 
-###### Building the treeview with recursion
+#### Building the treeview with recursion
 
 The recursive function which will output the treeview takes to arguments :
  - $dict : the dictionary/collection/array with the key/value pairs to process
