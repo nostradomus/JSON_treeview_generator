@@ -1,12 +1,12 @@
 # JSON treeview generator
-
+![](https://img.shields.io/badge/project%20status-publication%20in%20progress-lightgrey.svg) ![](https://img.shields.io/badge/version-1.0.0.0-green.svg)
 ## What
 
-This command-line tool converts JSON-data into a text-based treeview. The JSON-data can be originating from either a (local) file or directly from a web-api.
+This command-line tool converts [JSON](https://www.json.org)-data into a text-based treeview. The [JSON](https://www.json.org)-data can be originating from either a (local) file or directly from a web-api.
 
 ## Why
 
-When learning a new programming language, I prefer writing code which can actually serve in the future, instead of just writing hello world's. So, the language being PHP, I considered some web-related tool to be interesting enough.
+When learning a new programming language, I prefer writing code which can actually serve in the future, instead of just writing hello world's. So, the language being [PHP](https://secure.php.net), I considered some web-related tool to be interesting enough.
 
 ## How
 
@@ -29,7 +29,7 @@ Coming soon.............
 
 #### Programming language
 
-The code has been written in PHP. The minimum required version is PHP 5.3, due to the use of HereDoc/NowDoc. The script has however been tested to work correctly up to version 7.
+The code has been written in [PHP](https://secure.php.net). The minimum required version is PHP 5.3, due to the use of [HereDoc](https://en.wikipedia.org/wiki/Here_document#PHP)/[NowDoc](http://php.net/manual/en/language.types.string.php). The script has however been tested to work correctly up to version 7.
 
 #### Code
 
