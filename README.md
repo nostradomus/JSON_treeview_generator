@@ -20,8 +20,8 @@ The script loads JSON-data from either a file or a web-source. A recursive funct
  - [x] decide on how it should [work](#how)
  - [x] write the [code](source/)  
  - [x] [test](#how) it properly
- - [x] document the [functionalities](#help) and the [code](source/)
- - [ ] write an [end-user manual](https://github.com/nostradomus/LHCreate-2017/wiki)
+ - [ ] document the [source code](source/) and the important [snippets](#snippets)
+ - [x] write a [user manual](#how_to_use_it)
 
 ## How to use it
 
@@ -110,7 +110,7 @@ Coming soon.............
 
 #### Building the treeview with recursion
 
-The recursive function which will output the treeview takes to arguments :
+The standard recursive function which will output the treeview takes to arguments :
  - $dict : the dictionary/collection/array with the key/value pairs to process
  - $level : the branch depth-level of the root element of $dict
 
@@ -134,6 +134,24 @@ function iterateArray($dict,$level) {
              }
     }
     return $branch;
+```
+
+When adding the `--valueonly` options to the command-line arguments list, and alternative function is called, which is based on a PHP built-in iterator and treeview generator. This function only takes the data-collection as an argument.
+
+The output of the function also is a multiline string.
+
+```PHP
+// value-only treeview generator based on language built-in iterators
+function iterateValues($dict) {
+    $tree = '';
+    $json2list = new RecursiveArrayIterator($dict);
+    $list2tree = new RecursiveTreeIterator($json2list);
+
+    foreach( $list2tree as $key => $value ) {
+        $tree = $tree.$value.PHP_EOL;
+    }
+    return $tree;
+  }
 ```
 
 ## Contributors
