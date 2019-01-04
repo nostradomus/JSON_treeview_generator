@@ -1,5 +1,8 @@
 # ![](images/json-logo-xs.png) JSON treeview generator
 ![](https://img.shields.io/badge/project%20status-publication%20in%20progress-lightgrey.svg) ![](https://img.shields.io/badge/version-1.0.0.0-green.svg)
+
+![](images/commandline_example.png)
+
 ## What
 
 This command-line tool converts [JSON](https://www.json.org)-data into a text-based treeview. The [JSON](https://www.json.org)-data can be originating from either a (local) file or directly from a web-api.
@@ -138,7 +141,7 @@ function iterateArray($dict,$level) {
 
 When adding the `--valueonly` options to the command-line arguments list, and alternative function is called, which is based on a PHP built-in iterator and treeview generator. This function only takes the data-collection as an argument.
 
-The output of the function also is a multiline string.
+This function outputs a similar type of multiline string, with a slightly different layout, and only values as data.
 
 ```PHP
 // value-only treeview generator based on language built-in iterators
