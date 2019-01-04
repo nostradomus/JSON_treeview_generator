@@ -124,12 +124,18 @@ The output of the function is a multiline string.
 ```PHP
 // recursive iterator to build a text-based treeview with key/value pairs
 function iterateArray($dict,$level) {
-    $spaces = ' ';
-    for ($x = 0; $x <= ($level*3); $x++) {
-     $spaces = $spaces.' ';
-     }
+    $spaces = '';
+    for ($i = 0; $i <= ($level*3); $i++) {
+        $spaces = $spaces.' ';
+      }
+    $branch = '';
     foreach($dict as $key => $value) {
         if (!(is_array($value))) {
+          $indent = '';
+          for ($i = 0; $i <= (strlen($key)+3); $i++) {
+              $indent = $indent.' ';
+            }
+          $value = str_replace("\n","\n ".$spaces.$indent,$value);
           $branch = $branch.$spaces."|_".$key." : ".$value.PHP_EOL;
           } else {
               $next = iterateArray($value,($level+1));
@@ -137,6 +143,7 @@ function iterateArray($dict,$level) {
              }
     }
     return $branch;
+  }
 ```
 
 When adding the `--valueonly` options to the command-line arguments list, and alternative function is called, which is based on a PHP built-in iterator and treeview generator. This function only takes the data-collection as an argument.
