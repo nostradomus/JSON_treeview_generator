@@ -27,7 +27,7 @@ Starting the application with the `--help` option as argument will display the c
 
 `>php jsonTreeview.php --help`
 
-```markdown
+```
 JSON TREEVIEW GENERATOR (1)            General Commands Manual            JSON TREEVIEW GENERATOR (1)
 
 NAME
