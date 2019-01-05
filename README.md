@@ -1,5 +1,5 @@
 # ![](images/json-logo-xs.png) JSON treeview generator
-![](https://img.shields.io/badge/project%20status-publication%20in%20progress-lightgrey.svg) ![](https://img.shields.io/badge/version-1.0.0.0-green.svg)
+![](https://img.shields.io/badge/project%20status-published-green.svg) ![](https://img.shields.io/badge/version-1.0.0.0-green.svg)
 
 ![](images/commandline_example.png)
 
@@ -23,8 +23,9 @@ The script loads JSON-data from either a file or a web-source. A recursive funct
  - [x] decide on how it should [work](#how)
  - [x] write the [code](source/)  
  - [x] [test](#how) it properly
- - [ ] document the [source code](source/) and the important [snippets](#snippets)
+ - [x] document the [source code](source/) and the important [snippets](#snippets)
  - [x] write a [user manual](#how_to_use_it)
+ - [ ] add [sample material](examples/) (JSON test-data, and processed treeviews)
 
 ## How to use it
 
