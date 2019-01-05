@@ -130,7 +130,7 @@ The retrieval of the JSON-data is handled in the main-loop block of the script. 
 ```PHP
 $file = $argv[2];                                            // get the path/filename or url-address from the arguments list
 $json = file_get_contents($file);                            // get the json-data   
-$json = json_decode($json, true, 512, JSON_OBJECT_AS_ARRAY); // decode the json-data to array
+$json = json_decode($json, true, 512, JSON_OBJECT_AS_ARRAY); // decode the json-data to an array
 $jsonTree = "$file".PHP_EOL;                                 // create the root of the json tree
 $jsonTree = $jsonTree.iterateArray($json,1);                 // iterate through the tree, and append all elements in branches (keys and values)
 echo $jsonTree;                                              // send the result to the output
