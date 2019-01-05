@@ -36,7 +36,7 @@ or directly as an application
 
 `$ > ./jsonTreeview.php [required arguments] {options}`
 
-The script contains a shebang on the first line which is optimised for linux based OS's. For other OS's, it might be necessary to replace `#!/usr/bin/php` by `#!/usr/bin/env php`. Do not forget to make the script executable :
+The script contains a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix) on the first line which is optimised for linux based OS's. For other OS's, it might be necessary to replace `#!/usr/bin/php` by `#!/usr/bin/env php`. Do not forget to make the script executable :
 
 `$ > chmod +x jsonTreeview.php`
 
