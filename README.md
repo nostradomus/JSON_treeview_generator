@@ -15,7 +15,7 @@ When learning a new programming language, I prefer writing code which can actual
 
 The code for this script has been written in PHP on [MacOS High Sierra](https://en.wikipedia.org/wiki/MacOS_High_Sierra) on the built-in PHP version [7.1](http://php.net/releases/7_1_0.php). It has been tested in parallel on a [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) [Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) with PHP [7.0](http://php.net/releases/7_0_0.php). The script only uses PHP built-in functionalities. As such, there are no references to any external libraries.
 
-The script loads JSON-data from either a file or a web-source. A recursive function iterates over the data, and outputs a human-readable text-based treeview. More details are to found in the [code section](#code)
+The script loads JSON-data from either a file or a web-source. A recursive function iterates over the data, and outputs a human-readable text-based treeview. More details are to be found in the [code section](#code)
 
 ## Progress status
 
